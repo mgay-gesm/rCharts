@@ -28,7 +28,7 @@ svg.nvd3-svg {
     user-select: none;
     display: block;
 	width:100%;
-  height:100%;
+	height:100%;
 }
 
 /********************
@@ -93,7 +93,6 @@ svg.nvd3-svg {
   padding: 4px 14px;
   line-height: 18px;
   font-weight: normal;
-  background-color: rgba(247,247,247,0.75);
   text-align: center;
 
   border-bottom: 1px solid #ebebeb;
@@ -159,10 +158,12 @@ svg.nvd3-svg {
 
 .nvd3 text {
   font: normal 12px Arial;
+  fill: white;
 }
 
 .nvd3 .title {
- font: bold 14px Arial;
+ font: bold 13px Arial;
+ fill: white;
 }
 
 .nvd3 .nv-background {
@@ -171,8 +172,9 @@ svg.nvd3-svg {
 }
 
 .nvd3.nv-noData {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: bold;
+  fill: white;
 }
 
 
@@ -292,7 +294,7 @@ svg.nvd3-svg {
 }
 
 .nvd3 .nv-bars .hover text {
-  fill: rgba(0,0,0,1);
+  fill: rgba(0,0,0,0.2);
 }
 
 
@@ -319,7 +321,7 @@ svg.nvd3-svg {
 .nvd3 .nv-discretebar .nv-groups text,
 .nvd3 .nv-multibarHorizontal .nv-groups text {
   font-weight: bold;
-  fill: rgba(0,0,0,1);
+  fill: rgba(0,0,0,0.2);
   stroke: rgba(0,0,0,0);
 }
 
